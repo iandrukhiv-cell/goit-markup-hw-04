@@ -15,6 +15,10 @@
     width: calc((100% - 72px) / 4);
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
+    box-shadow:
+        0 2px 1px rgba(46, 47, 66, 0.08),
+        0 1px 1px rgba(46, 47, 66, 0.16),
+        0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .team-info {
@@ -32,7 +36,17 @@
 }
 
 .team-role {
+    margin-bottom: 8px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+.team-social {
+    justify-content: center;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: #404bbf;
 }
